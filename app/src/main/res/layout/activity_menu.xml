@@ -28,14 +28,14 @@
         android:textSize="20sp"
         android:layout_marginTop="10dp"
         />
-    
+
     <GridLayout
         android:id="@+id/gdMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="2"
         android:layout_marginTop="20dp"
-        android:paddingHorizontal="50dp">
+        android:paddingHorizontal="10dp">
 
         <Button
             android:id="@+id/btnCold"
@@ -44,6 +44,7 @@
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
             android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:layout_marginBottom="5dp"
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
@@ -69,6 +70,7 @@
             android:textColor="@color/dustyWhite"
             android:background="@drawable/second_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
+            android:layout_marginBottom="5dp"
             android:layout_marginRight="@dimen/menu_buttons_margin"
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
@@ -95,6 +97,7 @@
             android:textColor="@color/dustyWhite"
             android:background="@drawable/third_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
+            android:layout_marginBottom="5dp"
             android:layout_marginRight="@dimen/menu_buttons_margin"
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
@@ -114,7 +117,6 @@
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_padding_v"
             />
-
     </GridLayout>
 
 </LinearLayout>
